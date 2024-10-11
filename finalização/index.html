@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina test</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-image:linear-gradient(rgb(109, 255, 109),rgb(85, 85, 242));
+        }
+        #Menu{
+            max-width: 2000px;
+            min-width: 360px;
+            height: 60px;
+            background-color: black;
+            
+        }
+
+        #menulista{
+
+            display: flex;
+
+        }
+        #menulista li {
+            width: 120px;
+            height: 60px;
+        }
+        #menu a{
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            height:100%;
+            width: 100%;
+            display: flex;
+           
+
+        }
+        #menu a:hover{
+            background-color: blue;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav id="menu">
+            <ul id="menulist">
+                <li><a href="#">ONG</a></li>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Loja</a></li>
+                <li><a href="#">Eventos</a></li>
+            </ul>
+    </nav>
+    </header>
+</body>
+</html>
